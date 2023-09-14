@@ -106,10 +106,6 @@ class ApiFunctions:
             "media_content_type": "track",
         })
 
-        #set HASS state input_number.custom_song_playing to 1
-        hass.states.set("input_number.custom_song_playing", 1)
-
-
         return json.dumps({
             "result": "OK, playing track %s" % track_id,
         })
