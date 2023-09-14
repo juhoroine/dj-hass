@@ -1,0 +1,12 @@
+{
+  "domain": "dj_hass",
+  "name": "DJ HASS",
+  "version": "0.1",
+  "codeowners": ["@juhoroine"],
+  "config_flow": true,
+  "dependencies": ["conversation", "application_credentials"],
+  "documentation": "https://www.home-assistant.io/integrations/openai_conversation",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": ["openai==0.27.2", "spotipy==2.23.0"]
+}
