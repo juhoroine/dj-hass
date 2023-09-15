@@ -18,3 +18,7 @@ To configure:
      3. Spotify client secret
   
 Please consider this as a very preliminary hackish demo only :)
+
+![Screenshot](screenshots/dj-hass-chat.png)
+
+(Black Sabbath's Paranoid starts playing)
